@@ -8,6 +8,53 @@
     <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=www.nasa.gov">
 </head>
 <body>
+    <!-- Loader -->
+    <div class="loader hidden">
+        <img src="rocket.svg" alt="">
+    </div>
+    <!-- Container -->
+    <div class="container">
+        <!-- Navigation -->
+        <div class="navigation-container">
+            <span class="background"></span>
+            <!-- Result Nav -->
+            <span class="navigation-items" id="resultNav">
+                <h3 class="clickable">Favourites</h3>
+                <h3>&nbsp;&nbsp;&nbsp;&bullet;&nbsp;&nbsp;&nbsp;</h3>
+                <h3 class="clickable">Load More</h3>
+            </span>
+            <!-- Favourite Nav -->
+            <span class="navigation-items hidden" id="favouriteNav">
+                <h3 class="clickable">Load More Nasa Images</h3>
+            </span>
+        </div>
+        <!-- Images Container -->
+        <div class="images-container">
+            <div class="card">
+                <a href="" title="View Full Image" target="_blank">
+                    <img src="https://apod.nasa.gov/apod/image/2107/M31_Galex_6000.jpg" alt="NASA Picture of the Day" class="card-img-top">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Title of Images</h5>
+                    <p class="clickable">Add to Favourites</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo, possimus sed quasi voluptatem labore nobis, eaque accusantium illo iste 
+                    consequuntur officia atque delectus earum amet veniam nihil incidunt maiores 
+                    eveniet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio amet 
+                    quae exercitationem nostrum corrupti rem modi, expedita quo optio dolorum laboriosam 
+                    excepturi, sit voluptate nulla hic aliquid itaque debitis. Sed!</p>
+                    <small class="text-muted">
+                        <strong>12-12-2020</strong>
+                        <span>Copyright Info</span>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Save Confirmation -->
+    <div class="save-confirmed hidden">
+        <h1>Added!</h1>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
